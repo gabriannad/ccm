@@ -1,0 +1,120 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>Cal Community Music - Contact Us</title>
+
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="menu.js"></script>
+
+    <script type="text/javascript">
+        if( !(/iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+            $(document).ready(function(){
+                if ($(window).width() > 584) {
+                    $('#bg').width($(window).width() - 240);
+                } else {
+                    $('#bg').width('100%');
+                }
+            });
+
+            $(window).resize(function(){
+                if ($(window).width() > 584) {
+                    $('#bg').width($(window).width() - 240);
+                } else {
+                    $('#bg').width('100%');
+                }
+            });
+        }
+    </script>
+
+    <style>
+
+        #bg {
+            background: 50% 75%/cover no-repeat url('photos/filler5.jpg');
+            height: 70vh;
+            position: fixed;
+            top: 0;
+            left: 12em;
+            z-index: -2;
+        }
+
+        #contact {
+            width: 100%;
+            margin-top: 70vh;
+        }
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
+
+            #bg {
+                top: 3.3em;
+                left: 0;
+                width: 100%;
+                height: 60vh;
+            }
+
+            #contact {
+                margin-top: 60vh;
+            }
+
+        }
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+            #bg {
+                top: 3.25em;
+                height: 15em;
+            }
+
+            #contact {
+                margin-top: 15em;
+            }
+            
+        }
+
+    </style>
+    
+</head>
+<body onload="if( !(/iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) { if ($(window).width() > 1013) { $('#pic').height($('#about').height());}}">
+
+<div id="container">
+
+    <div id="nav">
+        <img src="gradient-logo-white.png" id="logo"/>
+        <div id="ccm">
+            <div id="menu-toggle"></div>
+            <p>Cal Community Music</p>
+        </div>
+        <div id="menu">
+            <a href="http://ccm.berkeley.edu">Home</a>
+            <a href="about">About Us</a>
+            <a href="join">Join CCM</a>
+            <a href="events">Events</a>
+            <a href="resources">Resources</a>
+        </div>
+    </div>
+
+    <div id="bg"></div>
+
+	<div id="content">
+
+        <div id="contact" class="first box">
+            <h1>Contact Us</h1>
+            <p>
+                Questions? Comments? Here's how you can reach us.
+            </p>
+            <p>
+                <em>E-mail</em><br>
+                calcommunitymusic@gmail.com
+            </p>
+        </div>
+
+	</div>
+
+</div>
+
+</body>
+</html>
