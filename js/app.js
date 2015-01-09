@@ -23,6 +23,7 @@
 					}
 				]
 			}];
+			events.data = data;
 			events.status = status;
 			events.headers = headers;
 			events.config = config;
