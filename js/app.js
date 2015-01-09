@@ -7,22 +7,25 @@
 
 		$http.get('events.json').success(function(data){
 			events.eventList = data;
-		}).error(function(data){
+		}).error(function(data, status, headers, config){
 			events.eventList = [{
-		"date": "1994-03-02",
-		"events": [
-			{
-				"eventType": "Jam Session",
-				"time": "12 - 2 PM",
-				"location": "morrison-hall"
-			},
-			{
-				"eventType": "Concert",
-				"time": "2:30 - 3:30 PM",
-				"location": "ashby"
-			}
-		]
-	}]
+				"date": "1994-03-02",
+				"events": [
+					{
+						"eventType": "Jam Session",
+						"time": "12 - 2 PM",
+						"location": "morrison-hall"
+					},
+					{
+						"eventType": "Concert",
+						"time": "2:30 - 3:30 PM",
+						"location": "ashby"
+					}
+				]
+			}];
+			events.status = status;
+			events.headers = headers;
+			events.config = config;
 		});
 	}]);
 
