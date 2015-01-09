@@ -5,7 +5,7 @@
 		var events = this;
 		store.products = []
 
-		$http.get('js/events.json').success(function(data){
+		$http.get('events.json').success(function(data){
 			events.days = eventList;
 		})
 	}]);
