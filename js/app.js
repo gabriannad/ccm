@@ -1,7 +1,7 @@
 (function(){
 	var app = angular.module('ccm', [ ]);
 
-	app.controller('ccmController', function(){
+	app.controller('eventsController', function(){
 		this.days = eventList;
 	});
 
