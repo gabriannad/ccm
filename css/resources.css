@@ -1,5 +1,5 @@
 #bg {
-    background: 50% 35%/cover no-repeat url('assets/photos/3.jpg');
+    background: 50% 35%/cover no-repeat url('../assets/photos/3.jpg');
     height: 70vh;
     position: fixed;
     top: 0;

@@ -1,5 +1,5 @@
 #bg {
-    background: center center/cover no-repeat url('assets/photos/16.jpg');
+    background: center center/cover no-repeat url('../assets/photos/16.jpg');
     height: 70vh;
     position: fixed;
     top: 0;
