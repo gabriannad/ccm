@@ -5,12 +5,12 @@
 			{
 				"eventType": "Jam Session",
 				"time": "12 - 2 PM",
-				"location": "morrison-hall",
+				"location": "morrison-hall"
 			},
 			{
 				"eventType": "Concert",
 				"time": "2:30 - 3:30 PM",
-				"location": "kyakameena",
+				"location": "kyakameena"
 			}
 		]
 	},
@@ -20,12 +20,12 @@
 			{
 				"eventType": "Jam Session",
 				"time": "12 - 2 PM",
-				"location": "morrison-hall",
+				"location": "morrison-hall"
 			},
 			{
 				"eventType": "Concert",
 				"time": "2:30 - 3:30 PM",
-				"location": "elmwood",
+				"location": "elmwood"
 			}
 		]
 	},
@@ -35,12 +35,12 @@
 			{
 				"eventType": "Jam Session",
 				"time": "12 - 2 PM",
-				"location": "morrison-hall",
+				"location": "morrison-hall"
 			},
 			{
 				"eventType": "Concert",
 				"time": "2:30 - 3:30 PM",
-				"location": "ashby",
+				"location": "ashby"
 			}
 		]
 	},
@@ -50,12 +50,12 @@
 			{
 				"eventType": "Jam Session",
 				"time": "12 - 2 PM",
-				"location": "morrison-hall",
+				"location": "morrison-hall"
 			},
 			{
 				"eventType": "Concert",
 				"time": "2:30 - 3:30 PM",
-				"location": "chaparral-house",
+				"location": "chaparral-house"
 			}
 		]
 	}
