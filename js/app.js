@@ -1,9 +1,14 @@
 (function(){
 	var app = angular.module('ccm', [ ]);
 
-	app.controller('eventsController', function(){
-		this.days = eventList;
-	});
+	app.controller('eventsController', ['$http', function($http){
+		var events = this;
+		store.products = []
+
+		$http.get('js/events.json').success(function(data){
+			events.days = eventList;
+		})
+	}]);
 
 	var eventList = [
 		{
