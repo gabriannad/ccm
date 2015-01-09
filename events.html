@@ -41,7 +41,7 @@
 
 				<p>CCM holds jam sessions and concerts every week. Click <a href="about.html">here</a> to learn more about how to attend!</p>
 
-				<div ng-repeat="day in events.days">
+				<div ng-repeat="day in events.eventList">
 					<h2>{{day.date | date: 'EEEE, MMMM d'}}</h2>
 					<div class="info">
 						<div class="row" ng-repeat="event in day.events">
