@@ -57,7 +57,7 @@ div {
 	width: 100%;
 }
 
-#nav {
+nav {
 	background-color: #000;
 	float: left;
 	width: 12em;
@@ -177,7 +177,7 @@ h2 {
 		height: auto;
 	}
 
-	#nav {
+	nav {
 		float: none;
 		position: fixed;
 		top: 0;
