@@ -5,7 +5,7 @@
 		var events = this;
 		events.eventList = [];
 
-		$http.get('/events.json').success(function(data){
+		$http.get('events.json').success(function(data){
 			events.eventList = data;
 		}).error(function(data){
 			events.eventList = [{
