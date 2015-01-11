@@ -2,14 +2,43 @@
 	var app = angular.module('ccm', [ ]);
 
 	app.controller('eventsController', ['$http', function($http){
-		var events = this;
-		events.eventList = [];
+		var events = eventList;
+		});
+	}]);
 
-		$http.get('events.json').success(function(data){
-			events.eventList = data;
-		}).error(function(data, status, headers, config){
-			events.eventList = [{
-				"date": "1994-03-02",
+	var eventList = [
+			{
+				"date": "2014-09-13",
+				"events": [
+					{
+						"eventType": "Jam Session",
+						"time": "12 - 2 PM",
+						"location": "morrison-hall"
+					},
+					{
+						"eventType": "Concert",
+						"time": "2:30 - 3:30 PM",
+						"location": "kyakameena"
+					}
+				]
+			},
+			{
+				"date": "2014-09-20",
+				"events": [
+					{
+						"eventType": "Jam Session",
+						"time": "12 - 2 PM",
+						"location": "morrison-hall"
+					},
+					{
+						"eventType": "Concert",
+						"time": "2:30 - 3:30 PM",
+						"location": "elmwood"
+					}
+				]
+			},
+			{
+				"date": "2014-09-27",
 				"events": [
 					{
 						"eventType": "Jam Session",
@@ -22,12 +51,22 @@
 						"location": "ashby"
 					}
 				]
-			}];
-			events.data = data;
-			events.status = status;
-			events.headers = headers;
-			events.config = config;
-		});
-	}]);
+			},
+			{
+				"date": "2014-10-04",
+				"events": [
+					{
+						"eventType": "Jam Session",
+						"time": "12 - 2 PM",
+						"location": "morrison-hall"
+					},
+					{
+						"eventType": "Concert",
+						"time": "2:30 - 3:30 PM",
+						"location": "chaparral-house"
+					}
+				]
+			}
+		]
 
 })();
