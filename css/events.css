@@ -49,8 +49,9 @@
 #map_container {
 /*	position: absolute;
 	top: 0;
-	right: 0;*/
+	right: 0;
 	width: 100%;
+*/
 	margin-left: 25em;
 	height: 100vh;
 	z-index: -2;
