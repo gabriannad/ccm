@@ -1,6 +1,6 @@
 #events {
 	width: 27em;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 12em;
 	z-index: -1;
@@ -44,7 +44,7 @@
 }
 
 #map_container {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	right: 0;
 	width: 500px;
