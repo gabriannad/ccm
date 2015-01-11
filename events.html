@@ -36,11 +36,6 @@
 				<h1>Events</h1>
 
 				<p>CCM holds jam sessions and concerts every week. Click <a href="about.html">here</a> to learn more about how to attend!</p>
-				<b>events:</b> {{events.eventList.length}}<br>
-				<b>Config:</b> {{events.config}}<br>
-				<b>Headers:</b> {{events.headers}}<br>
-				<b>Status:</b> {{evenets.status}}<br>
-				<b>Data:</b> {{evenets.data}}<br>
 
 				<div ng-repeat="day in events.eventList">
 					<h2>{{day.date | date: 'EEEE, MMMM d'}}</h2>
