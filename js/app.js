@@ -1,10 +1,9 @@
 (function(){
 	var app = angular.module('ccm', [ ]);
 
-	app.controller('eventsController', ['$http', function($http){
+	app.controller('eventsController', function($http){
 		this.events = eventList;
-		});
-	}]);
+	});
 
 	var eventList = [
 			{
