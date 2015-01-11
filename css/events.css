@@ -1,5 +1,5 @@
 #events {
-	width: 16.8em;
+	width: 18em;
 	height: 100vh;
 	display: inline-block;
 	/*
@@ -52,7 +52,7 @@
 	right: 0;
 	width: 100%;
 */
-	margin-left: 16.8em;
+	margin-left: 18em;
 	height: 100vh;
 	z-index: -2;
 }
