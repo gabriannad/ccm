@@ -1,5 +1,5 @@
 #events {
-	width: 12.9em;
+	width: 24em;
 	height: 100vh;
 	display: inline-block;
 	/*
@@ -52,7 +52,7 @@
 	right: 0;
 	width: 100%;
 */
-	margin-left: 12.9em;
+	margin-left: 14em;
 	height: 100vh;
 	z-index: -2;
 }
@@ -144,6 +144,7 @@
     	top: 0;
     	left: 0;
     	z-index: 0;
+    	margin-left: 0;
     }
 
     #events {
