@@ -1,6 +1,7 @@
 #events {
 	width: 17.2em;
 	height: 100vh;
+	position: fixed;
 	display: inline-block;
 	/*
 	position: fixed;
