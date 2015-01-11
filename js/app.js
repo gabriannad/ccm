@@ -1,7 +1,7 @@
 (function(){
 	var app = angular.module('ccm', [ ]);
 
-	app.controller('eventsController', function($http){
+	app.controller('eventsController', function(){
 		this.events = eventList;
 	});
 
