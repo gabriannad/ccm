@@ -2,7 +2,7 @@
 	var app = angular.module('ccm', [ ]);
 
 	app.controller('eventsController', function(){
-		this.events = eventList;
+		this.eventList = eventList;
 	});
 
 	var eventList = [
