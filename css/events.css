@@ -23,7 +23,7 @@
 
 .event-type {
 	float: left;
-	width: 25%;
+	width: 22%;
 }
 
 .time {
@@ -34,7 +34,7 @@
 
 .location {
 	float: left;
-	width: 45%;
+	width: 48%;
     padding-left: 1em;
     overflow: hidden;
 }
