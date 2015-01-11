@@ -1,5 +1,6 @@
 #events {
-	width: 25em;
+	width: 75%;
+	max-width: 25em;
 	height: 100vh;
 	display: inline-block;
 	/*
