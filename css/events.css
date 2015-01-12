@@ -3,12 +3,11 @@
 	height: 100vh;
 	position: fixed;
 	left: 12em;
+	overflow: scroll;
 	/*
 	position: fixed;
 	top: 0;
 	left: 12em;*/
-	z-index: 5000;
-}
 
 .info {
 	background-color: #252525;
