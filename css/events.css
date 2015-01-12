@@ -54,7 +54,7 @@
 	right: 0;
 	width: 100%;
 */
-	position: relative;
+	position: absolute;
 	margin-left: 17.2em;
 	height: 100vh;
 }
