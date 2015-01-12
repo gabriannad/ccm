@@ -10,41 +10,60 @@
 	left: 12em;*/
 }
 
-.info {
-	background-color: #252525;
-	margin-bottom: 1em;
-	padding: 0.5em;
+#events::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+	background: #ffffff;
 }
 
-.row {
+#events::-webkit-scrollbar-thumb {
+	background-color: #ededed;
+	-webkit-border-radius: 1ex;
+	border: 1px solid #ffffff;
+}
+
+#events:hover::-webkit-scrollbar-thumb {
+	background-color: #dcdcdc;
+}
+
+.day {
+	padding: .8em 0;
+	border-top: 1px solid #ededed;
+}
+
+.date {
+	text-transform: uppercase;	
+	font-family: 'new_ciclegordita';
+}
+
+.event {
     width: 100%;
-    padding: 0.1em 0.4em 0.1em 0.40em;
+    padding: 0.5em 0;
     overflow: hidden;
-    color: #fff;
     font-size: 0.8em;
     line-height: 125%;
+    padding-left: .8em;
+    background-color: #f2f2f2;
+}
+
+.event:hover {
+	color: #ffffff;
+    background-color: #333333;
 }
 
 .event-type {
-	float: left;
-	width: 22%;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #a2a2a2;
 }
 
 .time {
-	float: left;
-	width: 30%;
-    padding-left: 1em;
 }
 
 .location {
-	float: left;
-	width: 48%;
-    padding-left: 1em;
-    overflow: hidden;
 }
 
 .location:hover {
-	color: #bcbcbc;
 }
 
 #map_container {
@@ -67,7 +86,7 @@
 	letter-spacing: 0.05em;
 }
 
-.aseb:before {
+/*.aseb:before {
 	content: "Alzheimer's Services of the East Bay";
 }
 
@@ -133,7 +152,7 @@
 
 .morrison-hall:before {
 	content: "Morrison Hall Lounge";
-}
+}*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) , all and (max-width: 600px) {
 

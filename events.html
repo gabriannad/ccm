@@ -37,13 +37,15 @@
 
 				<p>CCM holds jam sessions and concerts every week. Click <a href="about.html">here</a> to learn more about how to attend!</p>
 
-				<div ng-repeat="day in events.eventList">
-					<h2>{{day.date | date: 'EEEE, MMMM d'}}</h2>
-					<div class="info">
-						<div class="row" ng-repeat="event in day.events">
-							<div class="event-type">{{event.eventType}}</div>
-							<div class="time">{{event.time}}</div>
-							<div class="location" ng-class="event.location"><br></div>
+				<div class="day" ng-repeat="day in events.eventList">
+					<span class="date">{{day.date | date: 'EEEE, MMMM d'}}</span>
+					<div class="event" ng-repeat="event in day.events" ng-class="event.location">
+						<div class="event-type">{{event.eventType}}</div>
+						<div class="time">{{event.time}}</div>
+						<div class="location" ng-init="loc = event.location">
+							{{events.venueInfo[loc].name}}
+							<br>
+							{{events.venueInfo[loc].address}}
 						</div>
 					</div>
 				</div>
