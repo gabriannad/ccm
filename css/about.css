@@ -40,8 +40,7 @@
 	#bg {
 		top: 3.25em;
 		height: 15em;
-		width: 100vw;
-		background-color: red;
+		width: 100%;
 	}
 
 	#about {
