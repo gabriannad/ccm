@@ -185,19 +185,11 @@
     	margin-top: 3.3em;
     }
 
-    .row {
-    	font-size: .2em;
-    	padding: 0 0 0.1em 0;
-    }
-
     .event {
+    	font-size: .2em;
     	padding: 0.1em;
     	margin-bottom: 0.1em;
     	font-size: 5.5em;
-    }
-
-    .location {
-    	padding-right: 1em;
     }
 
 }
