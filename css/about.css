@@ -40,6 +40,8 @@
 	#bg {
 		top: 3.25em;
 		height: 15em;
+		width: 100%;
+		position: absolute;
 	}
 
 	#about {
